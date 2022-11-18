@@ -19,7 +19,7 @@ const TopExtraNavComponent = () => {
                 </li>
                 <li>
                 <i className="fa fa-phone" aria-hidden="true"></i>
-                    <h4><small>Call us now</small> 1-866-744-6152</h4>
+                    <h4><small>Call us now</small> 0832 239 5291</h4>
                 </li>
             </ul>
         </div>
