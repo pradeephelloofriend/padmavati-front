@@ -38,11 +38,11 @@ const MenuItemComponent = ({ setTabKey,ref1 }) => {
         <>
 		
             <ul className="nav navbar-nav">	
-							<li onClick={()=>router.push('/')} className="active">
+							<li onClick={()=>router.push('/')} className={router.pathname=='/'?"active":""}>
 								<a >Home</a>
 								
 							</li>
-							<li>
+							<li  className={router.pathname=='/about-us'?"active":""}>
 								<a onClick={()=>router.push('/about-us')} >About Us</a>
 								{/*<ul className="sub-menu">
 									<li><a onClick={()=>router.push('/certificate')} >Certification and Awards</a></li>
@@ -51,7 +51,7 @@ const MenuItemComponent = ({ setTabKey,ref1 }) => {
 									<li><a onClick={() =>routeWithScroll('tab','2')}>Our Success Story</a></li>
 								</ul>*/}
 							</li>
-							<li  className=""> <a href='#' >Packaging Solutions<i className="fa fa-chevron-down"></i></a>
+							<li  className={router.pathname=='/solution'?"active":""}> <a href='#' >Packaging Solutions<i className="fa fa-chevron-down"></i></a>
 								<ul className="sub-menu">
 									<li><a  href='#'>Braille Cartons</a></li>
 									<li><a href='#'>Foiling Packaging Carton</a></li>
@@ -72,7 +72,9 @@ const MenuItemComponent = ({ setTabKey,ref1 }) => {
 								
 							</li>
 							
-							<li onClick={()=>router.push('/infrastructure')} className="has-mega-menu"> <a >Infrastructure</a>
+							<li className={router.pathname=='/infrastructure'?"active":""} 
+							onClick={()=>router.push('/infrastructure')} 
+							> <a >Infrastructure</a>
 								{/* <ul className="mega-menu">
 									<li><a >Product e-Brochure</a>
 										<ul>

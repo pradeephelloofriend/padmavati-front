@@ -7,6 +7,8 @@ import img2 from '../../public/images/background/foil.jpg'
 import MenuItemComponent from './MenuItemComponent';
 import TopNavBarComponent from './TopNavBarComponent';
 import TopExtraNavComponent from './TopExtraNavComponent';
+import DrawerComponent from '../drawer/DrawerComponent';
+
 
 class MainNavBarComponent extends React.Component{
     constructor(){
@@ -51,7 +53,7 @@ class MainNavBarComponent extends React.Component{
                     {/*<!-- website logo -->*/}
                     <TopExtraNavComponent/>
                     <div className="logo-header mostion logo-dark">
-						<a href="index.html"><Image src={logo} height={75} width={220} alt="logo"/></a>
+						<a href="index.html"><img src='https://res.cloudinary.com/depg2aab2/image/upload/v1668688102/padmavathi/padmavati-3_ff0xkd.gif' alt="logo"/></a>
 					</div>
                     {/*<!-- nav toggle button -->*/}
                     <button onClick={()=>this.setState({btnClick:!this.state.btnClick})} 
@@ -73,12 +75,8 @@ class MainNavBarComponent extends React.Component{
 							<a  className="site-button btnhover13">Apply Now</a>
 						</div>
                     </div>*/}
-                    <div className="extra-nav">
-                        <div className="extra-cell">
-                            <button id="quik-search-btn" type="button" className="site-button-link"><i class="fa fa-bars" aria-hidden="true"></i></button>
-							
-						</div>
-                    </div>
+                    <DrawerComponent/>
+                    
                     {/*<!-- Quik search -->*/}
                     {/*<div className="dlab-quik-search ">
                         <form action="#">
@@ -89,7 +87,7 @@ class MainNavBarComponent extends React.Component{
                     {/*<!-- main nav -->*/}
                     <div className={btnClick?`header-nav navbar-collapse show collapse`:`header-nav navbar-collapse collapse ${isFixed==null?`justify-content-end`:'justify-content-end'} `} id="navbarNavDropdown">
 						<div className="logo-header d-md-block d-lg-none">
-							<a href="index.html"><Image src={logo} height={50} width={254} alt="logo"/></a>
+							<a href="#"><Image src={logo} height={50} width={254} alt="logo"/></a>
 						</div>
                         
                         <MenuItemComponent/>

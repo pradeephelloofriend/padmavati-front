@@ -6,7 +6,7 @@ import '../public/css/custom.css';
 import '../public/css/global.css';
 import '../public/css/plugin.css';
 import '../public/css/templete.css';
-//import '../public/css/skin-3.css';
+import '../public/css/responsive.css';
 import "swiper/css/bundle";
 import Head from 'next/head';
 import { useStore } from 'react-redux';

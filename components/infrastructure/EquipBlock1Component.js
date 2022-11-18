@@ -31,7 +31,7 @@ const EquipBlock1Component = () => {
     return (
         <div className='equip-block'>
             <div className='row'>
-                <div className='col-md-6'>
+                <div className='col-md-6 col-6'>
                     <div onClick={() =>openMenu(1) } class={id==1 && open?"kam-box kam-img-box img-hvr-content-style-1 e-active":"kam-box kam-img-box img-hvr-content-style-1"}>
                         <div class="kam-media kam-img-overlay2 kam-img-effect zoom ">
                             <Image src={s1} alt='' />
@@ -42,7 +42,7 @@ const EquipBlock1Component = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-6'>
+                <div className='col-md-6 col-6'>
                     <div onClick={() => openMenu(2)} class={id==2 && open1?"kam-box kam-img-box img-hvr-content-style-1 e-active":"kam-box kam-img-box img-hvr-content-style-1"}>
                         <div class="kam-media kam-img-overlay2 kam-img-effect zoom ">
                             <Image src={s2} alt='' />

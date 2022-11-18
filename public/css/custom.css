@@ -638,9 +638,9 @@ color: red;
     font-size: 18px;
     
 }
-.testi-area .testimonial-num-count{
+/*.testi-area .testimonial-num-count{
     width: 880px;
-}
+}*/
 .testi-area .testimonial-12 .testimonial-detail{
     background-color: #48484800;
     text-align: left;
@@ -1235,6 +1235,9 @@ footer .widget_services ul li a:hover{
  .footer-logo {
     margin-bottom: 25px;
     margin-top: 25px;
+    max-width: 225px;
+    margin-left: -19px;
+
 }
 .working-hours{
     font-family: 'Helvetica 25 UltraLight', sans-serif;  
@@ -2887,4 +2890,50 @@ text-align: justify;
     bottom: 0;
     right: 0;
     background: linear-gradient(90deg,hsla(0,0%,100%,.95),hsla(0,0%,100%,.5));
+}
+
+.ant-drawer{
+    z-index: 99999;
+}
+.ant-drawer-content {
+    background-repeat: no-repeat;
+    background: url('../images/sidebar.jpg');
+    /* position: relative; */
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif; 
+    border-left: 3px solid #00a0e3;
+}
+.ant-drawer-content:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(350deg,hsl(0deg 0% 100% / 95%),hsl(0deg 0% 100% / 90%));
+}
+.ant-drawer-header {
+background-color: transparent;
+}
+.ant-drawer-header-title {
+    justify-content: flex-end;
+}
+.ant-drawer-close{
+    color: #00a0e3;
+    font-size: 21px;
+}
+.ant-drawer-wrapper-body{
+    position: relative;
+}
+.drawer-logo .footer-logo{
+    margin-top: 0;
+}
+.ant-drawer-body{
+    padding: 10px 50px;
+}
+.ant-btn{
+    font-family: 'Ubuntu', sans-serif; 
+}
+.drawer-callus .f-30{
+    font-size: 30px;
 }

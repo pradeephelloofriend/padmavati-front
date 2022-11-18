@@ -14,7 +14,7 @@ const FooterComponent = () => {
                           <div className="col-md-4  footer-col-4">
                               <div className="widget widget_services border-0">
                           
-                                  <Image className="footer-logo" src={logo} height={75} width={220} alt=""/>
+                                  <img className="footer-logo" src='https://res.cloudinary.com/depg2aab2/image/upload/v1668688102/padmavathi/padmavati-3_ff0xkd.gif'  alt=""/>
                                   <p>Over the last 25 years, we have partnered the pharma industry in our journey adopting cutting-edge technology and having innovation and R&D initiatives as our culture.</p>
                                   <div className="footer-social">
                                         <ul>
@@ -44,14 +44,11 @@ const FooterComponent = () => {
                               <div className="widget  widget_getintuch ">
                                   <h5 className="w-title text-black">Working Hours</h5>
                                   <ul>
-                                            <li><i class="ti-location-pin"></i><strong>address</strong> demo address #8901 Marmora Road Chi Minh City, Vietnam </li>
-                                            <li><i class="ti-mobile"></i><strong>phone</strong>0800-123456 (24/7 Support Line)</li>
-                                            <li><i class="ti-email"></i><strong>email</strong>info@example.com</li>
+                                            <li><i className="ti-location-pin"></i><strong>address</strong> demo address #8901 Marmora Road Chi Minh City, Vietnam </li>
+                                            <li><i className="ti-mobile"></i><strong>phone</strong>0800-123456 (24/7 Support Line)</li>
+                                            <li><i className="ti-email"></i><strong>email</strong>info@example.com</li>
                                         </ul>
-                                
-                                  
-                                  
-                              </div>
+                                </div>
                           </div>
                       </div>
                   </div>

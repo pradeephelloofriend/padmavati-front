@@ -11,14 +11,14 @@ const AccordationHorizontalComponent = () => {
   return (
       <><div className="section-full accordation-home bg-white content-inner">
       <div className="container ">
-      <div class="acco-container" ref={lazyRoot}>
+      <div className="acco-container" ref={lazyRoot}>
               
 
-              <ul class="accordion-group" >
-                  <li class={`lazy bu-1 ${id=='bu-1'?'out':''} `} onMouseOver={()=>onMouseOverHandle('bu-1')}>
+              <ul className="accordion-group" >
+                  <li className={`lazy bu-1 ${id=='bu-1'?'out':''} `} onMouseOver={()=>onMouseOverHandle('bu-1')}>
                   {/*<Image lazyRoot={lazyRoot} src={i1} layout='fill' alt='' />*/}
-                      <div class="accordion-overlay"></div>
-                      <h3>Your Business Grows <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+                      <div className="accordion-overlay"></div>
+                      <h3>Your Business Grows <i className="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
                       <section>
                           <article>
                               <h4>Your Business Grows</h4>
@@ -28,9 +28,9 @@ const AccordationHorizontalComponent = () => {
                             </article>
                         </section>
                     </li>
-                    <li class={`lazy bu-2 ${id=='bu-2'?'out':''} `} onMouseOver={()=>onMouseOverHandle('bu-2')}>
-                        <div class="accordion-overlay"></div>
-                        <h3>Your Business Grows <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+                    <li className={`lazy bu-2 ${id=='bu-2'?'out':''} `} onMouseOver={()=>onMouseOverHandle('bu-2')}>
+                        <div className="accordion-overlay"></div>
+                        <h3>Your Business Grows <i className="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
                         <section>
                             <article>
                                 <h4>Your Business Grows</h4>
@@ -40,9 +40,9 @@ const AccordationHorizontalComponent = () => {
                             </article>
                         </section>
                     </li>
-                    <li class={`lazy bu-3 ${id=='bu-3'?'out':''} `} onMouseOver={()=>onMouseOverHandle('bu-3')}>
-                        <div class="accordion-overlay"></div>
-                        <h3>Your Business Grows <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+                    <li className={`lazy bu-3 ${id=='bu-3'?'out':''} `} onMouseOver={()=>onMouseOverHandle('bu-3')}>
+                        <div className="accordion-overlay"></div>
+                        <h3>Your Business Grows <i className="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
                         <section>
                             <article>
                                 <h4>Your Business Grows</h4>
@@ -52,9 +52,9 @@ const AccordationHorizontalComponent = () => {
                             </article>
                         </section>
                     </li>
-                    <li class={`lazy bu-4 ${id=='bu-4'?'out':''} `} onMouseOver={()=>onMouseOverHandle('bu-4')}>
-                        <div class="accordion-overlay"></div>
-                        <h3>Your Business Grows <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
+                    <li className={`lazy bu-4 ${id=='bu-4'?'out':''} `} onMouseOver={()=>onMouseOverHandle('bu-4')}>
+                        <div className="accordion-overlay"></div>
+                        <h3>Your Business Grows <i className="fa fa-long-arrow-right" aria-hidden="true"></i></h3>
                         <section>
                             <article>
                                 <h4>Your Business Grows</h4>
