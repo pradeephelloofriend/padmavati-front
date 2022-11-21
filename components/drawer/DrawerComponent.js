@@ -40,11 +40,7 @@ const DrawerComponent = () => {
                         </div>
                         <div className="widget  widget_getintuch ">
                                   
-                                  <ul>
-                                            <li><i className="ti-location-pin"></i><strong>address</strong> demo address #8901 Marmora Road Chi Minh City, Vietnam </li>
-                                            <li><i className="ti-mobile"></i><strong>phone</strong>0800-123456 (24/7 Support Line)</li>
-                                            <li><i className="ti-email"></i><strong>email</strong>info@example.com</li>
-                                        </ul>
+                        <ul><li><i class="ti-location-pin"></i><strong>address</strong> Plot No. 267, GIDC,Kundaim Ind Estate,Kundaim,Ponda,Goa-403115, India </li><li><i class="ti-mobile"></i><strong>phone</strong>0832 239 5291 (24/7 Support Line)</li><li><i class="ti-email"></i><strong>email</strong>info@example.com</li></ul>
                                 </div>
       </Drawer>
     </>

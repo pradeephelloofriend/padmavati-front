@@ -51,15 +51,15 @@ const MenuItemComponent = ({ setTabKey,ref1 }) => {
 									<li><a onClick={() =>routeWithScroll('tab','2')}>Our Success Story</a></li>
 								</ul>*/}
 							</li>
-							<li  className={router.pathname=='/solution'?"active":""}> <a href='#' >Packaging Solutions<i className="fa fa-chevron-down"></i></a>
+							<li  className={router.pathname=='/solutions'?"active":""}> <a href='#' >Packaging Solutions<i className="fa fa-chevron-down"></i></a>
 								<ul className="sub-menu">
-									<li><a  href='#'>Braille Cartons</a></li>
-									<li><a href='#'>Foiling Packaging Carton</a></li>
+									<li><a onClick={()=>router.push({pathname:'/solutions/1',query:{id:1}})}  href='#'>Braille Cartons</a></li>
+									{/*<li><a href='#'>Foiling Packaging Carton</a></li>*/}
 									<li><a href='#'>Pharma insert & leaflets, boxes</a></li>
 									<li><a href='#'>Pharma Packaging & Printing products</a></li>
 									<li><a href='#'>Pharma cartons</a></li>
-									<li><a href='#'>Security enhanced cartons</a></li>
-									<li><a href='#'>Commercial printer and packaging & printing</a></li>
+									{/*<li><a href='#'>Security enhanced cartons</a></li>
+									<li><a href='#'>Commercial printer and packaging & printing</a></li>*/}
 								</ul>
 								{/*<ul className="mega-menu">
 									<li> 
