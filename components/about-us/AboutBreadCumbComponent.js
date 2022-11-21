@@ -9,7 +9,7 @@ const AboutBreadCumbComponent = () => {
             <div className="some-facts "></div>
             <div className="text-uppercase sf-content">
               <p className='arrow-animation'>About Padmavathi Art & Printery</p>
-              <h3>Creating something amazing since 1974</h3>
+              <h3>Excel in Pharma Printing and packaging products</h3>
             </div>
           </div>
         </div>

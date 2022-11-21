@@ -7,27 +7,27 @@ const GlobalServiceComponent = () => {
 		  <div className="container-fluid">
             <div className='row'>
                 <div className='col-md-4'>
-                    <p className='w-title1 fs-50 p-relative'> Our presence and facilitates</p>
+                    <p className='w-title1 fs-50 p-relative'> Out Network  </p>
                         
                 </div>
                 <div className='col-md-8'>
                     <div className='row'>
                         <div className='col-md-3'>
                             <Card hoverable className='g-sec-right text-center'>
-                                <p className='g-sec-title'>2900</p>
+                                <p className='g-sec-title'>100+</p>
                                 <p className='g-sec-desc '>Employess</p>
                             </Card>
                         </div>
                         <div className='col-md-3'>
                             <Card hoverable className='g-sec-right text-center'>
-                                <p className='g-sec-title '>21</p>
-                                <p className='g-sec-desc '>Locations</p>
+                                <p className='g-sec-title '>30-50 lacs</p>
+                                <p className='g-sec-desc '>Printing Capacity</p>
                             </Card>
                         </div>
                         <div className='col-md-3'>
                             <Card hoverable className='g-sec-right text-center'>
-                                <p className='g-sec-title '>12</p>
-                                <p className='g-sec-desc '>Countries</p>
+                                <p className='g-sec-title '>50+</p>
+                                <p className='g-sec-desc '>Clients</p>
                             </Card>
                         </div>
                         <div className='col-md-3'>

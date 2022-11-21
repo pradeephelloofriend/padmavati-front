@@ -15,26 +15,15 @@ const ProudToWorkComponent = () => {
                             <div className='row'>
                                 <div className='col-md-4'>
                                     <ul className="intro-ul">
-                                        <li>Health & Beauty</li>
-                                        <li>Consumer Electronics</li>
-                                        <li>Hardware</li>
-                                        <li>Houseware</li>
+                                        <li>Pharma Packaging</li>
+                                        <li>Medical Packaging</li>
+                                        
                                     </ul>
                                 </div>
                                 <div className='col-md-4'>
                                     <ul className="intro-ul">
-                                        <li>School & Office</li>
-                                        <li>Automotive</li>
-                                        <li>Medical</li>
-                                        <li>Retail Packaging</li>
-                                    </ul>
-                                </div>
-                                <div className='col-md-4'>
-                                    <ul className="intro-ul">
-                                        <li>Sporting Goods</li>
-                                        <li>Alcohol & Tobacco</li>
-                                        <li>Toys & Hobby</li>
-                                        <li>Alcohol & Tobacco</li>
+                                        <li>Health &amp; Beauty Packaging</li>
+                                        <li>Food Processing</li>
                                     </ul>
                                 </div>
                             </div>

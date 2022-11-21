@@ -40,7 +40,7 @@ const SolutionsComponent = () => {
                                           </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-3'>
+                                    {/*<div className='col-md-3'>
                                         <div class="kam-box kam-img-box img-hvr-content-style-1">
                                           <div class="kam-media kam-img-overlay12 kam-img-effect img-ht img-round">
                                               <Image src={s2} alt='' width={200} height={200} />
@@ -57,7 +57,7 @@ const SolutionsComponent = () => {
                                               <h4 class="margin-0">Foiling Packaging Carton</h4>
                                           </div>
                                         </div>
-                                    </div>
+                                    </div>*/}
                                     <div className='col-md-3'>
                                         <div class="kam-box kam-img-box img-hvr-content-style-1 ">
                                           <div class="kam-media kam-img-overlay12 kam-img-effect img-ht img-round">
@@ -112,7 +112,7 @@ const SolutionsComponent = () => {
                                           </div>
                                         </div>
                                     </div>
-                                    <div className='col-md-3'>
+                                    {/*<div className='col-md-3'>
                                         <div class="kam-box kam-img-box img-hvr-content-style-1 ">
                                           <div class="kam-media kam-img-overlay12 kam-img-effect img-ht img-round">
                                               <Image src={s6} alt='' width={200} height={200} />
@@ -147,7 +147,7 @@ const SolutionsComponent = () => {
                                               <h4 class="margin-0">Commercial printer and packaging </h4>
                                           </div>
                                         </div>
-                                    </div>
+                                    </div>*/}
                               </div>
                           </div>
                       </div>

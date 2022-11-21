@@ -35,15 +35,15 @@ const Intro1Component = () => {
                                             </ul>
                                         </div>
                                         <div className='intro-content2'>
-                                            <h4 className='intro-title'>We are manufacturers,exporterand service provider of following :  </h4>
+                                            <h4 className='intro-title'>We are manufacturers,exporter and service provider of following :  </h4>
                                             <ul className='intro-ul'>
                                                 <li>Braille Cartons</li>
-                                                <li>Foiling Packaging Carton</li>
+                                                {/*<li>Foiling Packaging Carton</li>*/}
                                                 <li>Pharma insert & leaflets, boxes </li>
-                                                <li>Pharma Pharma Packaging & Printing products</li>
+                                                <li>Pharma Packaging & Printing products</li>
                                                 <li>Pharma cartons</li>
-                                                <li>Security enhanced cartons</li>
-                                                <li>Commercial printer and packaging & printing</li>
+                                                {/*<li>Security enhanced cartons</li>
+                                                <li>Commercial printer and packaging & printing</li>*/}
                                             </ul>
                                         </div>
                                         

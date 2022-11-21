@@ -32,7 +32,7 @@ const OurStoryComponent = () => {
                                 </div>
                                 <div class="testimonial-detail clearfix">
                                     <div class="testimonial-pic quote-left radius shadow"><Image src={t1} width="100" height="100" alt="" /></div>
-                                    <strong class="testimonial-name">David Matin</strong> <span class="testimonial-position">Student</span> 
+                                    <strong class="testimonial-name">Santosh Korgawkar</strong> <span class="testimonial-position">Director - Kamsoft</span> 
                                 </div>
                             </div>
                       </SwiperSlide>

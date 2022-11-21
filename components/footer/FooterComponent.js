@@ -29,13 +29,12 @@ const FooterComponent = () => {
                           </div>
                           <div className="col-md-4  footer-col-4">
                               <div className="widget widget_services border-0 pl-100">
-                                  <h5 className="w-title text-black">Solutions</h5>
+                                  <h5 className="w-title text-black">Company</h5>
                                   <ul>
-                                      <li><a >Create Account</a></li>
-                                      <li><a >Company Philosophy </a></li>
-                                      <li><a >Corporate Culture</a></li>
-                                      <li><a >Portfolio</a></li>
-                                      <li><a >Client Management</a></li>
+                                      <li><a >About Us</a></li>
+                                      <li><a >Packaging Solutions </a></li>
+                                      <li><a >Infrastructure</a></li>
+                                      
                                   </ul>
                               </div>
                           </div>

@@ -8,7 +8,7 @@ import "swiper/css/pagination"
 import SwiperCore, {Pagination,Navigation} from 'swiper';
 import t1 from '../../public/images/testimonial/testi1.jpg'
 import t2 from '../../public/images/testimonial/testi2.jpg'
-import t3 from '../../public/images/testimonial/testi3.jpg'
+import t3 from '../../public/images/testimonial/testi3.jpeg'
 SwiperCore.use([Pagination,Navigation]);
 const ClientTestimonialComponent = () => {
   return (
@@ -44,8 +44,8 @@ const ClientTestimonialComponent = () => {
 
                                       <div className="testimonial-detail">
                                           <div className='quote-left'>
-                                              <h4 className="testimonial-name m-t0 m-b5">David Matin</h4>
-                                              <span className="testimonial-position">Student</span>
+                                              <h4 className="testimonial-name m-t0 m-b5">Santosh Korgawkar</h4>
+                                              <span className="testimonial-position">Director - Kamsoft</span>
                                               <div className="testimonial-text">
                                                   <p>At Vimal Printery, I was so impressed with their factory setup, Innovative and scientific approach to solution that enable to have them at the top of my list.</p>
                                               </div>

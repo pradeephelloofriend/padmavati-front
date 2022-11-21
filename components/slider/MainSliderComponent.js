@@ -31,8 +31,8 @@ const MainSliderComponent = () => {
                 <div className="swiper_content ">
                   <div class="some-facts "></div>
                     <div class="text-white text-uppercase sf-content">
-                      <p className='arrow-animation'>Are You Ready For</p>
-                      <h3>THE SOLUTION PERFORMER ?</h3>
+                      <p className='arrow-animation'>Are you looking for</p>
+                      <h3>Pharma packaging Solutions ?</h3>
                     </div>
                   
                   {/*<p>Agnel group a goan native a diversified business.</p>
