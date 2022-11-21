@@ -1,5 +1,5 @@
 import React from 'react'
-import i1 from '../../public/images/banner/pic5.jpg'
+//import i1 from '../../public/images/banner/pic5.jpg'
 import { Typography,Tabs,Card  } from 'antd'
 import Image from 'next/image'
 const {Title,Text}=Typography
