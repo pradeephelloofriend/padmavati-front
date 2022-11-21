@@ -28,7 +28,7 @@ const DrawerComponent = () => {
         <Button style={{backgroundColor:'transparent'}} className='bg-moving' size="large" >REQEST A QUOTE</Button>
                       <div className='bg-moving'>
                       <div className='head-block mt-5'>
-                            <h4 className="w-title ">CALL US TODAY</h4>
+                            <h4 className="w-title f-30">CALL US TODAY</h4>
                             <p className='w-title1'><i className="fa fa-mobile arrow-animation " aria-hidden="true"></i> 0832 239 5291</p>
                         </div>
                       </div>
